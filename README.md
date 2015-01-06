@@ -18,5 +18,5 @@ Usage
     new MyDeferredModal().show().then (result) ->
       ...
     
-    # in your template, bind events, e.g., clicks, to the resolve and reject methods of DeferredModal, to resolve or reject. If you want to return some data, make your own custom method that calls @result.resolve(data) and bind to that in the template.
+In your template, bind events, e.g., clicks, to the `resolve` and `reject` methods of `DeferredModal`, to resolve or reject. If you want to return some data, make your own custom method that calls `@result.resolve(data)` and bind to that in the template.
     
