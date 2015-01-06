@@ -14,6 +14,6 @@ Usage
   
     # usage
     new MyDeferredModal().show().then (result) ->
-    
+      ...
   
     
