@@ -7,13 +7,13 @@ Usage
 =====
 
 
-  # definition
-  class MyDeferredModal extends DeferredModal
-    constructor: ->
-      super "knockout-template-id"
+    # definition
+    class MyDeferredModal extends DeferredModal
+      constructor: ->
+        super "knockout-template-id"
   
-  # usage
-  new MyDeferredModal().show().then (result) ->
+    # usage
+    new MyDeferredModal().show().then (result) ->
     
   
     
